@@ -1,0 +1,70 @@
+
+#agregar_gasto {
+  width: 80%;
+  margin: 1em 6em 1em 6em;
+  }
+
+.texto-formulario{
+  margin: 1em 6em 1em 6em;
+  color: #333; /* Color del texto */
+}
+
+.form-control{
+  width: 80%;
+  margin: 0em 6em 0em 6em;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.half-section {
+  width: 50%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+
+#left-half {
+  background-color: rgb(255, 255, 255); /* Color de la mitad izquierda */
+}
+
+#right-half {
+  background-color: rgba(233, 247, 239); /* Color de la mitad derecha */
+}
+
+
+.custom-heading {
+  margin: 2em 1em 1em 1em;
+  font-family: Arial, sans-serif; /* Cambia "Arial" por el tipo de letra que desees */
+  text-align: center; 
+  font-size: 24px; /* Tamaño de la fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  color: #333; /* Color del texto */
+}
+
+.custom-navbar {
+  background-color: #3498db; 
+}
+
+.button_container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center; /* Alineación vertical al centro */
+  justify-content: center; /* Alineación horizontal al centro */
+}
+
+.centered-button {
+  border: none;
+  cursor: pointer;
+}

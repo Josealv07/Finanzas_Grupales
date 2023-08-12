@@ -1,0 +1,26 @@
+{% extends "index.html" %}
+
+{% block title %}
+    Montos
+{% endblock %}
+
+{% block main %}
+    <table class = "table table-striped">
+        <thead>
+            <tr>
+                <td>Persona</td>
+                <td>Monto</td>
+                <td>Valor</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for gasto in gastos %}
+            <tr>
+                <td>{{gasto.persona}}</td>
+                <td>{{gasto.concepto}}</td>
+                <td>{{gasto.monto}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
